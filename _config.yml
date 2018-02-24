@@ -1,9 +1,17 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and GitHub Pages, with social/SEO features.
-show_downloads: true
+title: mygumi tech-blog
+description: Github pages + Jekyll
+timezone: Asia/Seoul
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://hotehrud.github.io" # change this to the base hostname & protocol for your site
+
+plugins:
+  - jekyll-paginate
+
+permalink: /:year/:month/:day/:title/
+
+paginate: 5
+paginate_path: '/page/:num/'
 
 google_analytics:
 # cayman-blog date format
